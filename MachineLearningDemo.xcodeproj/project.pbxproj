@@ -13,7 +13,6 @@
 		5AB86511211FF7330044AFFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AB86510211FF7330044AFFA /* Assets.xcassets */; };
 		5AB86514211FF7330044AFFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB86512211FF7330044AFFA /* LaunchScreen.storyboard */; };
 		5AB8651C211FF9CB0044AFFA /* LearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB8651B211FF9CB0044AFFA /* LearningViewController.swift */; };
-		5AB8651E212001740044AFFA /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5AB8651D212001740044AFFA /* Inceptionv3.mlmodel */; };
 		5AB8652021200A630044AFFA /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB8651F21200A630044AFFA /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		5AB86513211FF7330044AFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AB86515211FF7330044AFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AB8651B211FF9CB0044AFFA /* LearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningViewController.swift; sourceTree = "<group>"; };
-		5AB8651D212001740044AFFA /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		5AB8651F21200A630044AFFA /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +65,6 @@
 				5AB86512211FF7330044AFFA /* LaunchScreen.storyboard */,
 				5AB86515211FF7330044AFFA /* Info.plist */,
 				5AB8651B211FF9CB0044AFFA /* LearningViewController.swift */,
-				5AB8651D212001740044AFFA /* Inceptionv3.mlmodel */,
 				5AB8651F21200A630044AFFA /* ResultsViewController.swift */,
 			);
 			path = MachineLearningDemo;
@@ -145,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AB8651C211FF9CB0044AFFA /* LearningViewController.swift in Sources */,
-				5AB8651E212001740044AFFA /* Inceptionv3.mlmodel in Sources */,
 				5AB8650C211FF7320044AFFA /* ViewController.swift in Sources */,
 				5AB8652021200A630044AFFA /* ResultsViewController.swift in Sources */,
 				5AB8650A211FF7320044AFFA /* AppDelegate.swift in Sources */,
