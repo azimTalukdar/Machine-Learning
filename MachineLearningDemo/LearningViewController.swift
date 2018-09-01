@@ -75,7 +75,7 @@ class LearningViewController: UIViewController,UIImagePickerControllerDelegate,U
         
     }
     
-    func detectImage(image : CIImage) -> Void {/*
+    func detectImage(image : CIImage) -> Void {
         guard let model = try? VNCoreMLModel(for: Inceptionv3().model) else{
             fatalError("Loading CoreML Model Failed")
         }
@@ -101,7 +101,7 @@ class LearningViewController: UIViewController,UIImagePickerControllerDelegate,U
             print(error)
         }
         
-      */
+      
     }
     
 

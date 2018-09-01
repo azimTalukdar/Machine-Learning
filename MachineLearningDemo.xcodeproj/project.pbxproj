@@ -14,6 +14,7 @@
 		5AB86514211FF7330044AFFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB86512211FF7330044AFFA /* LaunchScreen.storyboard */; };
 		5AB8651C211FF9CB0044AFFA /* LearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB8651B211FF9CB0044AFFA /* LearningViewController.swift */; };
 		5AB8652021200A630044AFFA /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB8651F21200A630044AFFA /* ResultsViewController.swift */; };
+		5AB86522212020FB0044AFFA /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5AB86521212020FB0044AFFA /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5AB86515211FF7330044AFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AB8651B211FF9CB0044AFFA /* LearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningViewController.swift; sourceTree = "<group>"; };
 		5AB8651F21200A630044AFFA /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		5AB86521212020FB0044AFFA /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				5AB86515211FF7330044AFFA /* Info.plist */,
 				5AB8651B211FF9CB0044AFFA /* LearningViewController.swift */,
 				5AB8651F21200A630044AFFA /* ResultsViewController.swift */,
+				5AB86521212020FB0044AFFA /* Inceptionv3.mlmodel */,
 			);
 			path = MachineLearningDemo;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB86522212020FB0044AFFA /* Inceptionv3.mlmodel in Sources */,
 				5AB8651C211FF9CB0044AFFA /* LearningViewController.swift in Sources */,
 				5AB8650C211FF7320044AFFA /* ViewController.swift in Sources */,
 				5AB8652021200A630044AFFA /* ResultsViewController.swift in Sources */,
